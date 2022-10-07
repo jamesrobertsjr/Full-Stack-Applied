@@ -1,39 +1,30 @@
-# Software Engineering Summit — Full Stack Applied Lesson
+# Software Engineering Summit — Full Stack Applied
 
-## Environment Requirements
+In this workshop, you will learn about how to connect a front-end React application to a backend REST API. Specifically, we will configure the React Movie Picker application to utilize the Movie Picker API as its data source.
 
-Ensure that Node version >= 14.0.0 and npm version>= 5.6 are installed on your machine. You can install node here: https://nodejs.org/en/
+## Requirements
 
-## Run `fullstack-movie-picker`
+This workshop builds on top of the applications built in the React 101 and API 101 courses. You will need the following apps completed as a starting point for this workshop:
 
-The fullstack-movie-picker repo includes completed code for a React website. In order to run the movie-picker frontend, clone or download this repo then run the following:
+- `movie-picker` [React app](https://github.com/Software-Engineering-Summit/React-101/tree/main/movie-picker)
+- `Lab-3-Movies-Service` [Express API](https://github.com/Software-Engineering-Summit/APIs-101/tree/master/Lab-3-Movies-Service)
 
-```cd SES-React-Lesson
-cd fullstack-movie-picker
-npm install
-npm start
-```
+You can either use the applications you completed from these workshops, or you can pull down the completed versions from GitHub at the start of this workshop.
 
-In order to run the backend, follow instructions on the APIs-101 Repo
+### Environment Requirements
 
-View running application at http://localhost:3000
+Ensure that Node version >= 16.0.0 and npm version >= 8.5 are installed on your machine. You can install node here: <https://nodejs.org/en/>
 
-## Create a New React Project
+## Course Materials
 
-Run the following commands:
+In this repository, you will have a completed [fullstack-movie-picker](./fullstack-movie-picker/) application, which is the final React application with all updates from this workshop.
 
-```
-npx create-react-app my-app
-cd my-app
-npm start
-```
+You will also find step-by-step [Instructions](./Instructions.md) to follow along with that include directions on how to complete this workshop.
 
-## Learning Resources
+## Resources
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Intro to React Tutorial](https://reactjs.org/tutorial/tutorial.html)
-- [React Express](https://www.react.express/)
-- [Codecademy: Learn React](https://www.codecademy.com/learn/react-101)
-- [Getting Started With React Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
-- [Udemy: React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
-- [React Router Documentation](https://reactrouter.com/docs/en/v6)
+We will be using the following tools to help complete our Full-Stack integration:
+
+- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Promises](https://www.geeksforgeeks.org/javascript-promises/)
+- [useEffect](https://reactjs.org/docs/hooks-effect.html)
