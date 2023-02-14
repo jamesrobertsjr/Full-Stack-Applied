@@ -1,4 +1,4 @@
-# Software Engineering Summit — Full Stack Applied
+# Black & Hispanic Tech Summit — Full Stack Applied
 
 In this workshop, you will learn about how to connect a front-end React application to a backend REST API. Specifically, we will configure the React Movie Picker application to utilize the Movie Picker API as its data source.
 
@@ -6,8 +6,8 @@ In this workshop, you will learn about how to connect a front-end React applicat
 
 This workshop builds on top of the applications built in the React 101 and API 101 courses. You will need the following apps completed as a starting point for this workshop:
 
-- `movie-picker` [React app](https://github.com/Software-Engineering-Summit/React-101/tree/main/movie-picker)
-- `Lab-3-Movies-Service` [Express API](https://github.com/Software-Engineering-Summit/APIs-101/tree/master/Lab-3-Movies-Service)
+- `movie-picker` [React app](https://github.com/Black-and-Hispanic-Tech-Summit/React-101/tree/main/movie-picker)
+- `Lab-3-Movies-Service` [Express API](https://github.com/Black-and-Hispanic-Tech-Summit/APIs-101/tree/master/Lab-3-Movies-Service)
 
 You can either use the applications you completed from these workshops, or you can pull down the completed versions from GitHub at the start of this workshop.
 

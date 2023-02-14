@@ -1,8 +1,8 @@
 # Instructions
 
-In our previous workshops, we've created the front and back-end applications for a Movie Picker app. In [React 101](https://github.com/Software-Engineering-Summit/React-101), you created a front-end application that uses multiple components to render a Movie Picker UI. This starter application used an in-memory `data.js` file as its data source for the application.
+In our previous workshops, we've created the front and back-end applications for a Movie Picker app. In [React 101](https://github.com/Black-and-Hispanic-Tech-Summit/React-101), you created a front-end application that uses multiple components to render a Movie Picker UI. This starter application used an in-memory `data.js` file as its data source for the application.
 
-In [API 101](https://github.com/Software-Engineering-Summit/APIs-101), you created a RESTful backend API that provides several endpoints that can be used to retrieve, create, and update Movie data. This Movies Service persists movie data in a database and provides CRUD endpoints for manipulating Movies.
+In [API 101](https://github.com/Black-and-Hispanic-Tech-Summit/APIs-101), you created a RESTful backend API that provides several endpoints that can be used to retrieve, create, and update Movie data. This Movies Service persists movie data in a database and provides CRUD endpoints for manipulating Movies.
 
 In this workshop, we will update the front-end React application to use the Movie Service API as its back-end data source, instead of `data.js`.
 
@@ -25,7 +25,7 @@ In this workshop, we will update the front-end React application to use the Movi
 
 You will need to have both the front-end and back-end applications open *and running* on your machine in order to configure your Full-Stack application. Since our React app will need to make requests to the back-end API, you will need to ensure your Express API is up and running on your computer so that the server can respond to our requests.
 
-You can continue using the applications you built during the workshops, but we also have the [completed React](https://github.com/Software-Engineering-Summit/React-101/tree/main/movie-picker) and API apps available. If you choose to use one or both of these starter apps, make sure you run `npm install` first to install all of the required app dependencies, then run `npm start` to start the applications.
+You can continue using the applications you built during the workshops, but we also have the [completed React](https://github.com/Black-and-Hispanic-Tech-Summit/React-101/tree/main/movie-picker) and API apps available. If you choose to use one or both of these starter apps, make sure you run `npm install` first to install all of the required app dependencies, then run `npm start` to start the applications.
 
 The React application will run on `http://localhost:3000`, while the API will run on `http://localhost:8080`. Make a request to both URLs to confirm that your apps are running as expected.
 
